@@ -1,0 +1,174 @@
+.pvc-navbar {
+  background: var(--pvc-white);
+  border-bottom: 1px solid var(--pvc-border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.pvc-nav-container {
+  max-width: var(--pvc-container);
+  margin: auto;
+  min-height: 88px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.pvc-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.pvc-brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.pvc-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  color: var(--pvc-primary);
+}
+
+.pvc-brand-text strong {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.pvc-brand-text small {
+  color: var(--pvc-navy);
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.pvc-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pvc-nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--pvc-navy);
+  font-size: 13px;
+  font-weight: 700;
+  transition: var(--pvc-transition);
+}
+
+.pvc-nav-links a:hover,
+.pvc-nav-links a.active {
+  color: var(--pvc-primary);
+}
+
+.pvc-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pvc-search-icon {
+  background: transparent;
+  border: none;
+  color: var(--pvc-navy);
+  padding: 8px;
+}
+
+.pvc-login,
+.pvc-register {
+  padding: 10px 19px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.pvc-login {
+  border: 1px solid var(--pvc-primary);
+  color: var(--pvc-primary);
+}
+
+.pvc-register {
+  background: var(--pvc-primary);
+  color: white;
+}
+
+.pvc-register:hover {
+  background: var(--pvc-primary-dark);
+}
+
+.pvc-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--pvc-navy);
+}
+
+@media (max-width: 1050px) {
+  .pvc-menu-toggle {
+    display: block;
+  }
+
+  .pvc-nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom: 1px solid var(--pvc-border);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pvc-nav-links.active {
+    display: flex;
+  }
+
+  .pvc-nav-actions {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .pvc-nav-container {
+    min-height: 72px;
+    padding: 10px 14px;
+  }
+
+  .pvc-brand-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pvc-brand-text strong {
+    font-size: 13px;
+  }
+
+  .pvc-brand-text small {
+    font-size: 9px;
+  }
+
+  .pvc-nav-actions {
+    gap: 6px;
+  }
+
+  .pvc-search-icon {
+    display: none;
+  }
+
+  .pvc-login,
+  .pvc-register {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+}

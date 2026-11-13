@@ -1,0 +1,37 @@
+.pvc-recommend-page { background:var(--pvc-white); color:var(--pvc-text); }
+.pvc-recommend-hero { min-height:290px; display:grid; grid-template-columns:1fr 1fr; background:var(--pvc-navy); overflow:hidden; }
+.pvc-recommend-hero-copy { padding:52px 30px 48px max(28px,calc((100vw - 1200px)/2)); align-self:center; color:white; }
+.pvc-recommend-hero-copy>span,.pvc-recommend-aside>span,.pvc-recommend-form header>span { color:#68A8FF; font-size:11px; font-weight:800; letter-spacing:1.5px; }
+.pvc-recommend-hero h1 { font-size:clamp(34px,4vw,49px); line-height:1.1; margin:12px 0; max-width:550px; }
+.pvc-recommend-hero p { color:#E1EBFC; max-width:510px; font-size:14px; }
+.pvc-recommend-hero>img { width:100%; height:100%; min-height:290px; object-fit:cover; }
+.pvc-recommend-layout { max-width:1160px; margin:0 auto; padding:55px 24px 75px; display:grid; grid-template-columns:0.8fr 1.4fr; gap:35px; align-items:start; }
+.pvc-recommend-aside { background:var(--pvc-primary-light); border-radius:16px; padding:20px; }
+.pvc-recommend-aside-image { height:190px; border-radius:11px; overflow:hidden; margin-bottom:20px; }
+.pvc-recommend-aside-image img { width:100%; height:100%; object-fit:cover; }
+.pvc-recommend-aside>span { color:var(--pvc-primary); }
+.pvc-recommend-aside h2 { color:var(--pvc-navy); font-size:24px; line-height:1.25; margin:7px 0 10px; }
+.pvc-recommend-aside p { color:var(--pvc-muted); font-size:13px; }
+.pvc-recommend-aside ul { list-style:none; display:grid; gap:12px; margin-top:22px; }
+.pvc-recommend-aside li { display:flex; gap:9px; align-items:center; color:var(--pvc-navy); font-size:12px; font-weight:700; }
+.pvc-recommend-aside li svg { color:var(--pvc-primary); width:17px; }
+.pvc-recommend-form { border:1px solid #E0E7F1; border-radius:16px; padding:30px; box-shadow:var(--pvc-shadow); }
+.pvc-recommend-form header { margin-bottom:23px; }
+.pvc-recommend-form header>span { color:var(--pvc-primary); }
+.pvc-recommend-form header h2 { color:var(--pvc-navy); font-size:25px; margin:4px 0; }
+.pvc-recommend-form header p { color:var(--pvc-muted); font-size:12px; }
+.pvc-recommend-fields { display:grid; grid-template-columns:1fr 1fr; gap:17px 14px; }
+.pvc-recommend-fields label { display:flex; flex-direction:column; gap:7px; color:var(--pvc-navy); font-size:12px; font-weight:700; }
+.pvc-recommend-fields label>span { min-height:47px; display:flex; align-items:center; gap:9px; border:1px solid var(--pvc-border); border-radius:9px; padding:0 12px; color:var(--pvc-primary); }
+.pvc-recommend-fields input,.pvc-recommend-fields select { min-width:0; width:100%; border:0; outline:0; background:transparent; color:var(--pvc-text); font-size:12px; }
+.pvc-recommend-fields label>span svg { width:16px; flex-shrink:0; }
+.pvc-recommend-fields textarea { width:100%; border:1px solid var(--pvc-border); border-radius:9px; padding:12px; resize:vertical; outline-color:var(--pvc-primary); font-size:12px; color:var(--pvc-text); }
+.pvc-recommend-full { grid-column:1/-1; }
+.pvc-recommend-consent { color:var(--pvc-muted); font-size:11px; margin:20px 0 15px; }
+.pvc-recommend-submit { border:0; border-radius:9px; padding:13px 19px; background:var(--pvc-primary); color:white; display:inline-flex; align-items:center; justify-content:center; gap:9px; font-size:13px; font-weight:700; }
+.pvc-recommend-submit:disabled { opacity:.65; cursor:wait; }
+.pvc-recommend-status { margin-top:13px; padding:11px 13px; border-radius:8px; font-size:12px; }
+.pvc-recommend-status.success { color:#17633A; background:#EAF8F0; }
+.pvc-recommend-status.error { color:#A52828; background:#FFF0F0; }
+@media(max-width:850px) { .pvc-recommend-layout { grid-template-columns:1fr; } .pvc-recommend-aside { display:grid; grid-template-columns:180px 1fr; column-gap:18px; align-items:center; } .pvc-recommend-aside-image { grid-row:span 4; height:160px; margin:0; } .pvc-recommend-aside ul { grid-column:2; } }
+@media(max-width:600px) { .pvc-recommend-hero { grid-template-columns:1fr; } .pvc-recommend-hero-copy { padding:38px 20px; } .pvc-recommend-hero>img { min-height:190px; max-height:220px; } .pvc-recommend-layout { padding:35px 14px 50px; } .pvc-recommend-aside { display:block; } .pvc-recommend-aside-image { height:170px; margin-bottom:17px; } .pvc-recommend-form { padding:20px 15px; } .pvc-recommend-fields { grid-template-columns:1fr; } .pvc-recommend-full { grid-column:auto; } .pvc-recommend-submit { width:100%; } }

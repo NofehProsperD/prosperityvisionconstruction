@@ -1,0 +1,25 @@
+.pvc-terms-page{background:var(--pvc-white);color:var(--pvc-text);min-height:70vh}
+.pvc-terms-hero{background:var(--pvc-navy);color:#fff;padding:52px 24px 48px}
+.pvc-terms-hero-inner{max-width:var(--pvc-container);margin:auto}
+.pvc-terms-eyebrow{color:#75b0ff;font-size:11px;font-weight:800;letter-spacing:1.5px}
+.pvc-terms-icon{width:52px;height:52px;margin-top:20px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);color:#8fc0ff}
+.pvc-terms-hero h1{font-size:clamp(34px,4vw,48px);margin:13px 0 7px}
+.pvc-terms-hero p{max-width:620px;color:#dce8fb;font-size:14px;line-height:1.7}
+.pvc-terms-updated{display:flex;align-items:center;gap:8px;color:#c7d8f2;font-size:12px;margin-top:18px}
+.pvc-terms-layout{max-width:var(--pvc-container);margin:auto;padding:42px 24px 75px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:38px;align-items:start}
+.pvc-terms-aside{position:sticky;top:25px;padding:22px;border:1px solid var(--pvc-border);border-radius:13px;background:var(--pvc-surface)}
+.pvc-terms-aside-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:12px;background:var(--pvc-primary-light);color:var(--pvc-primary)}
+.pvc-terms-aside h2{font-size:17px;color:var(--pvc-navy);margin:13px 0 7px}
+.pvc-terms-aside p{font-size:12px;line-height:1.7;color:var(--pvc-muted)}
+.pvc-terms-aside a{display:inline-block;margin-top:8px;color:var(--pvc-primary);font-size:12px;font-weight:800;text-decoration:none}
+.pvc-terms-content{max-width:790px}
+.pvc-terms-intro{padding-bottom:20px;border-bottom:1px solid var(--pvc-border);margin-bottom:8px}
+.pvc-terms-intro h2{font-size:22px;color:var(--pvc-navy);margin:0 0 7px}
+.pvc-terms-intro p,.pvc-terms-section p{font-size:13px;line-height:1.85;color:var(--pvc-muted)}
+.pvc-terms-section{padding:17px 0;border-bottom:1px solid var(--pvc-border)}
+.pvc-terms-section h3{font-size:16px;color:var(--pvc-navy);margin:0 0 6px}
+.pvc-terms-section p{margin:0}
+.pvc-terms-contact{display:flex;gap:12px;align-items:flex-start;margin-top:22px;padding:17px;border-radius:11px;background:var(--pvc-primary-light);color:var(--pvc-primary)}
+.pvc-terms-contact strong{font-size:13px;color:var(--pvc-navy)}
+.pvc-terms-contact p{font-size:12px;color:var(--pvc-muted);margin:4px 0 0}
+@media(max-width:700px){.pvc-terms-hero{padding:38px 19px}.pvc-terms-layout{grid-template-columns:1fr;padding:27px 17px 50px;gap:22px}.pvc-terms-aside{position:static}.pvc-terms-section{padding:15px 0}}

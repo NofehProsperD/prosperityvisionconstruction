@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Construction project placeholder</title>
+<desc id="desc">A blue-toned illustration of a construction site with a crane, building frame, hard hat and blueprints.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaf5ff"/><stop offset="1" stop-color="#a9d2ff"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#168cff"/><stop offset="1" stop-color="#0647bd"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#254c83"/><stop offset="1" stop-color="#10264d"/></linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#sky)"/>
+<circle cx="1000" cy="145" r="82" fill="#fff" opacity=".42"/>
+<path d="M0 540 1200 470v290H0Z" fill="#c8e2ff"/>
+<!-- distant skyline -->
+<g fill="#7eb6ef" opacity=".55"><path d="M0 510h80V350h45v160h45V410h58v100h45V300h54v210h42V390h67v120h55V340h47v170h62V430h64v80h70V360h50v150h55V410h45v100h55V320h50v190h60v-90h45v90h60v-60h50v60h40v250H0Z"/></g>
+<!-- building frame -->
+<g stroke="#f7fbff" stroke-width="15" fill="none"><path d="M400 550V230h500v320M400 310h500M400 395h500M400 480h500M520 230v320M650 230v320M780 230v320"/></g>
+<g stroke="#4f82b9" stroke-width="7" fill="none"><path d="M400 230h500M400 310h500M400 395h500M400 480h500M520 230v320M650 230v320M780 230v320"/></g>
+<!-- crane -->
+<g stroke="#0754c9" stroke-width="12" stroke-linecap="round" fill="none"><path d="M770 220 770 80 1090 80M770 80 650 145M770 80 840 35M1090 80l-20 35M1068 115v130"/></g>
+<g stroke="#3d7fc4" stroke-width="5" fill="none"><path d="M810 80 770 125 730 80M860 80 820 125 780 80M910 80 870 125 830 80M960 80 920 125 880 80M1010 80 970 125 930 80M1060 80 1020 125 980 80"/></g>
+<!-- blueprint -->
+<path d="M95 630 465 560l170 70-380 80Z" fill="#fff" stroke="#5d9de0" stroke-width="8"/>
+<g stroke="#83b8ed" stroke-width="3" fill="none"><path d="m180 634 335-58M225 650l330-60M270 666l330-60M210 620l35 105M300 604l35 105M390 588l35 105"/></g>
+<!-- hardhat -->
+<path d="M720 605c0-115 76-194 178-194s178 79 178 194Z" fill="url(#blue)"/>
+<path d="M858 417c-16-77 6-125 40-125s57 48 41 125" fill="none" stroke="#d9edff" stroke-width="17"/>
+<path d="M695 600h405c30 0 52 21 52 47v20H643v-20c0-26 22-47 52-47Z" fill="#0750c6"/>
+<path d="M725 606h345" stroke="#8ec7ff" stroke-width="8" stroke-linecap="round"/>
+<rect y="700" width="1200" height="60" fill="#10264d"/>
+<text x="600" y="739" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="4">PROSPERITY VISION CONSTRUCTION</text>
+</svg>

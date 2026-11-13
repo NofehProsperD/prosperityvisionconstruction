@@ -1,0 +1,1 @@
+const BASE_URL= Process.env.vite.BASE_URL 

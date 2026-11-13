@@ -1,0 +1,76 @@
+ :root {
+  /* Brand colours */
+  --pvc-primary: #0866F5;
+  --pvc-primary-dark: #064FC2;
+  --pvc-primary-light: #EAF2FF;
+
+  --pvc-white: #FFFFFF;
+  --pvc-grey: #CCCCCC;
+  --pvc-navy: #0B1F49;
+  --pvc-text: #172B4D;
+  --pvc-muted: #68778D;
+
+  /* Backgrounds */
+  --pvc-background: #FFFFFF;
+  --pvc-surface: #F7F9FC;
+
+  /* Borders and effects */
+  --pvc-border: #CCCCCC;
+  --pvc-shadow: 0 5px 22px rgba(11, 31, 73, 0.08);
+
+  /* Layout */
+  --pvc-container: 1240px;
+  --pvc-radius: 14px;
+  --pvc-transition: 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--pvc-background);
+  color: var(--pvc-text);
+  line-height: 1.6;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+.pvc-coming-soon {
+  min-height: 70vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 30px;
+  color: var(--pvc-navy);
+}
+
+#root {
+  min-height: 100vh;
+}
