@@ -8,7 +8,7 @@ import CompaniesPage from "./Pages/CompaniesPage";
 import RecommendCompanyPage from "./Pages/RecomendCompanyPage";
 import AboutPage from "./Pages/AboutPage";
 import EcosystemPage from "./Pages/EcosystemPage";
-import PrivacyPage from "./Pages/PrivacyPage";
+import PrivacyPage from "./Pages/privacy";
 import TermsPage from "./Pages/TermsPage";
 import CompanyTermsPage from "./Pages/companyTerms";
 import VisitorAnalyticsNotice from "./Pages/VisitorAnaliticsNotice";
