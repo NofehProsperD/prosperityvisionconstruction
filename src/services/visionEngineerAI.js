@@ -2,7 +2,7 @@ import { initializeApp, getApps } from "firebase/app";
 import { getAI, getGenerativeModel, GoogleAIBackend, InferenceMode } from "firebase/ai";
 
 // Add these VITE_FIREBASE_* values to your client .env file.
-// Firebase web config is public client configuration; protect usage with Firebase App Check. 
+// Firebase web config is public clients configuration; protect usage with Firebase App Check. 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
