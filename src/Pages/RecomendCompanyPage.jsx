@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Building2, MapPin, Globe2, Phone, Mail, BriefcaseBusiness, Send, CheckCircle2 } from "lucide-react";
-import "../css/RecommendCompanyPage.css" //"../css/RecommendCompanyPage.css";
+import "../css/recommendcompanyPage.css" //"../css/RecommendCompanyPage.css";
 
 const API_BASE = import.meta.env.VITE_GETLIN_API_URL || "";
 
