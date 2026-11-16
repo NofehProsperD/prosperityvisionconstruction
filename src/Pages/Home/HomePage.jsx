@@ -16,7 +16,7 @@ import {
   Star
 } from "lucide-react";
 
-import "./HomePage.css";
+import "./HomePage.css";;
 
 const services = [
   {
