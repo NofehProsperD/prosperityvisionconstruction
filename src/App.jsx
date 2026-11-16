@@ -1,7 +1,7 @@
  import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-//import HomePage from "./pages/Home/HomePage";
+import HomePage from "./Pages/HomePage";
 import JobsPage from "./Pages/JobsPage";
 import ServicesPage from "./Pages/ServicePage";
 import CompaniesPage from "./Pages/CompaniesPage";
@@ -37,7 +37,7 @@ export default function App() {
       <Routes>
      
 
-        <Route path="/" element={<JobsPage/>} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/jobs" element={<JobsPage/>} />
         <Route path="/jobs/:id" element={<JobDetails/>} />
         <Route path="/services" element={<ServicesPage />} />
