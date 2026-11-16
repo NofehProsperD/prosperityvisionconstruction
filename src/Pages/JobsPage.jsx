@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, BriefcaseBusiness, Clock3, ArrowUpRight, RefreshCw } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
-import "../css/JobsPage.css";
+import "../css/jobsPage.css";
 import { API_URL } from "../Utils/api";
 
 let Jobs;
